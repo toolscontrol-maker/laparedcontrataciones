@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const wallGrid = document.getElementById("wallGrid");
 
     // Total spaces
-    const totalSpaces = 100;
+    const totalSpaces = 150;
 
     // Simulated reserved spaces (15 as shown in the text)
     // We generate some random indices between 0 and 99 to mark them as reserved
