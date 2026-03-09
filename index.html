@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pared Viral | Únete al Reto</title>
+    <meta name="description" content="Compra un espacio en la pared viral de Instagram. Solo 100 espacios disponibles.">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge">
+                <span class="live-dot"></span> 100 espacios disponibles
+            </div>
+            <h1>Compra un espacio en mi <span class="text-gradient">reto viral 🚀</span></h1>
+            <p class="subtitle">Publico reels todos los días y estoy creando una pared permanente.<br><strong>¡Puedes
+                    llegar de
+                    forma orgánica a más de 1 millón de personas!</strong><br>La promocion de tu
+                anuncio durará
+                <strong>365 dias!</strong><br>
+            </p>
+            <div class="fomo-banner">
+                <span class="fomo-icon">📈</span>
+                <span class="fomo-text"><strong>¡El precio sube 1$ por cada nuevo comprador!</strong><br>El primero
+                    costó 5$, el último costará 104$.</span>
+            </div>
+
+            <div class="hero-price-badge">
+                <span class="live-dot" style="display:-webkit-inline-box; margin-right: 8px;"></span>Precio actual de
+                anuncio: <span class="price-value"><strong id="heroCurrentPrice">20</strong>$</span>
+            </div>
+
+            <div class="cta-wrapper">
+                <a href="#precio" class="btn btn-primary">Reservar mi espacio</a>
+                <div class="contact-links">
+                    <span>Contactar por </span>
+                    <a href="https://www.instagram.com/eslaultimapared?igsh=MXYwMmVhaHI0ZWhobw%3D%3D&utm_source=qr"
+                        target="_blank" class="link-ig">Instagram</a>,
+                    <a href="mailto:lapareddelos200@gmail.com" target="_blank" class="link-email">Correo</a> o
+                    <a href="https://wa.me/34611171571" target="_blank" class="link-wa">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section class="how-it-works glass-section">
+        <div class="container">
+            <h2 class="section-title">Cómo funciona</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-icon">1️⃣</div>
+                    <h3>Pagas el precio actual</h3>
+                    <p>Un pago único. ¡El precio sube 1$ cada vez que alguien compra!</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">2️⃣</div>
+                    <h3>Apareces en la pared del reto viral</h3>
+                    <p>Espacio permanente asegurado. Tu marca fijada junto al reto.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">3️⃣</div>
+                    <h3>Te promociono 1 mes en historias</h3>
+                    <p>1 historia dedicada a tu proyecto cada semana durante 30 días.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUÉ INCLUYE -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">¿Qué incluye?</h2>
+            <ul class="benefits-list">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" class="check-icon" stroke="currentColor">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span><strong>Espacio permanente</strong> en la pared</span>
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" class="check-icon" stroke="currentColor">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span><strong>Exposición diaria</strong> en un reto viral</span>
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" class="check-icon" stroke="currentColor">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span><strong>1 historia promocional a la semana</strong> (1 mes)</span>
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" class="check-icon" stroke="currentColor">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span><strong>Escasez total:</strong> El precio sube 1$ en cada reserva</span>
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" class="check-icon" stroke="currentColor">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span><strong>Acceso limitado</strong> a 100 marcas</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- LA PARED -->
+    <section class="the-wall">
+        <div class="container">
+            <h2 class="section-title">La Pared de los 100</h2>
+            <p class="section-subtitle">La pared tendrá 100 espacios.<br>Cada espacio pertenece a una marca, creador o
+                proyecto.</p>
+
+            <div class="wall-stats">
+                <div class="stat"><span class="box-legend box-available"></span> Disponible (85)</div>
+                <div class="stat"><span class="box-legend box-reserved"></span> Reservado (15)</div>
+            </div>
+
+            <!-- Grid de 100 espacios generado por JS -->
+            <div class="wall-grid" id="wallGrid"></div>
+
+        </div>
+    </section>
+
+    <!-- URGENCIA -->
+    <section class="urgency highlighted-box">
+        <div class="container">
+            <div class="urgency-content">
+                <h2>⚠️ Solo hay 100 espacios.</h2>
+                <p>Cuando los 100 espacios estén ocupados, la pared estará completa.<br><strong>Es un experimento viral
+                        irrepetible.</strong></p>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 15%;"></div>
+                    </div>
+                    <span class="progress-text">15 / 100 Vendidos</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRECIO Y CTA FINAL -->
+    <section id="precio" class="pricing">
+        <div class="container">
+            <div class="pricing-card">
+                <div class="price-notice"><span class="live-dot"
+                        style="display:-webkit-inline-box; margin-right: 8px;"></span>Precio actual</div>
+                <div class="price-tag"><span id="currentPrice">20</span>$</div>
+
+                <div class="fomo-price-alert">
+                    <div class="fomo-price-pulse"></div>
+                    <p>Si esperas a que otro compre, <br>el próximo espacio te costará <strong id="nextPrice"
+                            class="next-price-highlight">21$</strong></p>
+                </div>
+                <div class="price-details" style="margin-top: 2rem;">
+                    <p>✓ Espacio en la pared</p>
+                    <p>✓ Promoción en historias durante 1 mes</p>
+                </div>
+
+                <a href="https://wa.me/34611171571" target="_blank" class="btn btn-primary"
+                    style="margin-top: 2rem; box-shadow: 0 0 25px rgba(217, 70, 239, 0.4);">
+                    ¡Quiero mi espacio antes de que suba!
+                </a>
+
+                <p class="price-msg">Publicidad accesible para cualquier proyecto.</p>
+            </div>
+
+            <h2 class="cta-title" style="margin-top: 2rem; font-size: 1.5rem;">Otras formas de contacto</h2>
+            <div class="cta-buttons">
+                <a href="https://www.instagram.com/eslaultimapared?igsh=MXYwMmVhaHI0ZWhobw%3D%3D&utm_source=qr"
+                    target="_blank" class="btn btn-outline-ig">Contactar por
+                    Instagram</a>
+                <a href="mailto:lapareddelos200@gmail.com" target="_blank" class="btn btn-outline-email">Contactar por
+                    Correo</a>
+                <a href="https://wa.me/34611171571" target="_blank" class="btn btn-outline-wa">Contactar por
+                    WhatsApp</a>
+            </div>
+            <p class="fast-reply">⚡ Respondo rápido.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 La Pared Viral. Creado para Instagram.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
